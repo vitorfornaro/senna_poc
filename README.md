@@ -1,6 +1,6 @@
 # **Mapa Regex Project** 🇵🇹🇵🇹🇵🇹
 
-Bem-vindo ao **Mapa Regex Project**! Este projeto foi desenvolvido para automatizar a extração de dados de PDFs criptografados de mapas de responsabilidade, utilizando técnicas de regex e processamento de texto. É uma solução prática e eficiente para lidar com grandes volumes de documentos PDF protegidos.
+Bem-vindo ao **Mapa Regex Project**! Este projeto foi desenvolvido para automatizar a extração de dados de PDFs criptografados de mapas de responsabilidade, utilizando técnicas de regex e processamento de texto.
 
 ---
 
@@ -9,21 +9,21 @@ Bem-vindo ao **Mapa Regex Project**! Este projeto foi desenvolvido para automati
 project/
 │
 ├── src/
-│   ├── main.py              # Script principal para execução do projeto
-│   ├── config.py            # Configurações gerais
-│   ├── pdf_decryptor.py     # Módulo para descriptografia de PDFs
-│   ├── pdf_text_extractor.py# Módulo para extração de texto dos PDFs
-│   ├── pdf_data_extractor.py# Módulo para extração de dados formatados usando regex
-│   └── init.py          # Arquivo de inicialização do pacote
+│   ├── main.py                 # Script principal para execução do projeto
+│   ├── config.py               # Configurações gerais
+│   ├── pdf_decryptor.py        # Módulo para descriptografia de PDFs
+│   ├── pdf_text_extractor.py   # Módulo para extração de texto dos PDFs
+│   ├── pdf_data_extractor.py   # Módulo para extração de dados formatados usando regex
+│   └── init.py                 # Arquivo de inicialização do pacote
 │
 ├── maps/
-│   ├── encrypted/           # Diretório para os PDFs criptografados
-│   ├── decrypted/           # Diretório para os PDFs descriptografados
-│   │   └── processed/       # PDFs já processados
+│   ├── encrypted/              # Diretório para os PDFs criptografados
+│   ├── decrypted/              # Diretório para os PDFs descriptografados
+│   │   └── processed/          # PDFs já processados
 │
-├── requirements.txt         # Arquivo com as dependências do projeto
-├── README.md                # Este arquivo
-└── resultado_extracao.csv   # Resultado final da extração (gerado pelo script)
+├── requirements.txt            # Arquivo com as dependências do projeto
+├── README.md                   # Este arquivo
+└── resultado_extracao.csv      # Resultado final da extração (gerado pelo script)
 ```
 
 ## **🎯 Objetivo do Projeto**

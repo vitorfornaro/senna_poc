@@ -5,9 +5,6 @@ Bem-vindo ao **Mapa Regex Project**! Este projeto foi desenvolvido para automati
 ---
 
 ## **📂 Estrutura do Projeto**
-
-A organização dos arquivos:
-
 project/
 │
 ├── src/

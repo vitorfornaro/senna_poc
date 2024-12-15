@@ -5,6 +5,7 @@ Bem-vindo ao **Mapa Regex Project**! Este projeto foi desenvolvido para automati
 ---
 
 ## **📂 Estrutura do Projeto**
+```bash
 project/
 │
 ├── src/
@@ -23,10 +24,7 @@ project/
 ├── requirements.txt         # Arquivo com as dependências do projeto
 ├── README.md                # Este arquivo
 └── resultado_extracao.csv   # Resultado final da extração (gerado pelo script)
-
----
-
----
+```
 
 ## **🎯 Objetivo do Projeto**
 
@@ -37,7 +35,6 @@ Este projeto foi criado com o propósito de:
 - Processar os dados extraídos utilizando expressões regulares.
 - Gerar um arquivo CSV consolidado com os dados processados.
 
----
 
 ## **🔮 How to Deploy**
 

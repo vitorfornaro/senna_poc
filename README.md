@@ -27,17 +27,20 @@ project/
    ```bash
    python3 -m venv venv
    source venv/bin/activate # Linux/MacOS
+
    venv\Scripts\activate # Windows
 
-
 2.	Instale as dependências:
-pip install -r requirements.txt
+   ```bash
+    pip install -r requirements.txt
 
 
-3.	Coloque seus PDFs criptografados em maps/encrypted/.
+3.	Coloque seus PDFs criptografados em:
+   ```bash
+   maps/encrypted/.
+    
 
-4.	Rode o script principal: python src/main.py
-
+4.	Rode o script principal: python *src/main.py*
 
 5.	Os PDFs descriptografados aparecerão em maps/decrypted/. Após a extração do texto, os PDFs serão movidos para maps/decrypted/processed/.
 

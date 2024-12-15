@@ -1,8 +1,10 @@
-Mapa Regex Project 🇵🇹🇵🇹🇵🇹
+# **Mapa Regex Project** 🇵🇹🇵🇹🇵🇹
 
-Bem-vindo ao Mapa Regex Project! Este projeto foi desenvolvido para automatizar a extração de dados de PDFs criptografados de mapas de responsabilidade, utilizando técnicas de regex e processamento de texto. É uma solução prática e eficiente para lidar com grandes volumes de documentos PDF protegidos.
+Bem-vindo ao **Mapa Regex Project**! Este projeto foi desenvolvido para automatizar a extração de dados de PDFs criptografados de mapas de responsabilidade, utilizando técnicas de regex e processamento de texto. É uma solução prática e eficiente para lidar com grandes volumes de documentos PDF protegidos.
 
-📂 Estrutura do Projeto
+---
+
+## **📂 Estrutura do Projeto**
 
 A organização dos arquivos:
 
@@ -25,43 +27,49 @@ project/
 ├── README.md                # Este arquivo
 └── resultado_extracao.csv   # Resultado final da extração (gerado pelo script)
 
-
-🎯 Objetivo do Projeto
+---
+## **🎯 Objetivo do Projeto**
 Este projeto foi criado com o propósito de:
 	•	Automatizar a descriptografia de PDFs protegidos por senha.
 	•	Extrair textos desses PDFs de forma estruturada.
 	•	Processar os dados extraídos utilizando expressões regulares.
 	•	Gerar um arquivo CSV consolidado com os dados processados.
-    
+---
 
-🔮 How to deploy
+## **🔮 How to Deploy**
 
-1. Configuração do Ambiente
+### 1. Configuração do Ambiente
 
 Crie e ative um ambiente virtual (opcional, mas recomendado):
 
-Linux/MacOS:
+#### Linux/MacOS:
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 Windows:
+```bash
 python3 -m venv venv
 venv\Scripts\activate
+```
 
 2. Instale as Dependências
 
 Após ativar o ambiente virtual, instale as dependências necessárias:
+```bash
 pip install -r requirements.txt
+```
 
 3. Organize os PDFs
 Coloque os arquivos PDF criptografados no diretório maps/encrypted/.
 
 4. Execute o Script Principal
 Rode o script principal para iniciar o processamento:
-python src/main.py
+python **src/main.py**
 
 5. Resultado do Processamento
-	•	Os PDFs descriptografados estarão no diretório maps/decrypted/.
+	•	Os PDFs descriptografados estarão no diretório **maps/decrypted/.**
 	•	PDFs já processados serão movidos para maps/decrypted/processed/.
 	•	O arquivo resultado_extracao.csv será gerado no diretório raiz do projeto, contendo os dados extraídos.
 

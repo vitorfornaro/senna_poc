@@ -1,0 +1,6 @@
+pikepdf
+PyPDF2
+pypdf2
+pandas
+cryptography
+re

@@ -73,9 +73,9 @@ python src/main.py
 ```
 
 ### 5. Resultado do Processamento
-	•	Os PDFs descriptografados estarão no diretório maps/decrypted/.
-	•	PDFs já processados serão movidos para maps/decrypted/processed/.
-	•	O arquivo resultado_extracao.csv será gerado no diretório raiz do projeto, contendo os dados extraídos.
+•	Os PDFs descriptografados estarão no diretório maps/decrypted/.
+•	PDFs já processados serão movidos para maps/decrypted/processed/.
+•	O arquivo resultado_extracao.csv será gerado no diretório raiz do projeto, contendo os dados extraídos.
 
 #### 🛠️ Tecnologias Utilizadas 
 | Python 3.8+ | Bibliotecas: PyPDF2, re (Regex), pandas

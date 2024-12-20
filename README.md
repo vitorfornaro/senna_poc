@@ -13,14 +13,18 @@ project/
 │   ├── config.py               # Configurações gerais
 │   ├── pdf_decryptor.py        # Módulo para descriptografia de PDFs
 │   ├── pdf_text_extractor.py   # Módulo para extração de texto dos PDFs
-│   ├── pdf_data_extractor.py   # Módulo para extração de dados formatados usando regex
+│   ├── pdf_data_extractor.py
+│   ├── pdf_output_handler.py   # Módulo para manipulacao de outputs
 │   └── init.py                 # Arquivo de inicialização do pacote
 │
 ├── maps/
 │   ├── encrypted/              # Diretório para os PDFs criptografados
 │   ├── decrypted/              # Diretório para os PDFs descriptografados
 │   │   └── processed/          # PDFs já processados
-│
+│   ├── outputs/
+│   │   └── csv/resultado_extracao.csv
+│   │   └── json/resultado_extracao.json
+
 ├── requirements.txt            # Arquivo com as dependências do projeto
 ├── README.md                   # Este arquivo
 └── resultado_extracao.csv      # Resultado final da extração (gerado pelo script)

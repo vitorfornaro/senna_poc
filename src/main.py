@@ -12,12 +12,11 @@ def process_pdfs():
     - Extrair dados do texto
     - Salvar outputs em CSV e JSON
     """
-    # 1. Descriptografar o primeiro PDF
+    # 1. Descriptografar os PDFs com progresso
     decryptor = PDFDecryptor()
-    decrypted_pdf_path = decryptor.decrypt_first_pdf()
+    decrypted_pdfs = decryptor.decrypt_pdfs_with_progress()
 
-    # Se não houver PDF descriptografado, encerra o processamento
-    if not decrypted_pdf_path:
+    if not decrypted_pdfs:
         print("Nenhum PDF para descriptografar.")
         return
 

@@ -17,7 +17,8 @@ class PDFDataExtractor:
             'prod_financeiro': re.compile(r"Produto financeiro\s+(.+?)\s+Tipo de responsabilidade"),
             'dat_inicio': re.compile(r"Início\s+(\d{4}-\d{2}-\d{2})"),
             'dat_fim': re.compile(r"Fim\s+(\d{4}-\d{2}-\d{2})\s+Em litígio judicial"),
-            'entrada_incumpr': re.compile(r"Entrada incumpr\.\s+(\d{4}-\d{2}-\d{2})\s+Tipo")
+            'entrada_incumpr': re.compile(r"Entrada incumpr\.\s+(\d{4}-\d{2}-\d{2})\s+Tipo"),
+            'ano_mapa': re.compile(r'\b(19|20|21)\d{2}\b')
         }
 
     def get_feature(self, text, regex_key):
@@ -35,6 +36,7 @@ class PDFDataExtractor:
                     'nome': self.get_feature(page_text, 'nome'),
                     'nif': self.get_feature(page_text, 'nif'),
                     'mes_mapa': self.get_feature(page_text, 'mes_mapa'),
+                    'ano_mapa': self.get_feature(page_text,'ano_mapa'),
                     'instituicao': self.get_feature(page_text, 'instituicao'),
                     'divida': self.get_feature(page_text, 'total_em_divida'),
                     'litigio': self.get_feature(page_text, 'litigio'),

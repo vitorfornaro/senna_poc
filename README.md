@@ -1,4 +1,4 @@
-# **Mapa Regex Project** 🇵🇹🇵
+# **Mapa Regex Project** 🇵🇹
 
 Welcome to the **Mapa Regex Project**! This project was developed to automate the extraction of data from encrypted "Mapas de Responsabilidades" PDFs using regex techniques and text processing.
 

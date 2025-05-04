@@ -7,4 +7,8 @@
 /POC/maps
 /src/__pycache__
 
+#Variaveis de ambiente
 .env
+
+#Arquivo criado atraves do MAC
+.DS_Store

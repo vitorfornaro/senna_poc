@@ -1,7 +1,7 @@
 /venv
 /source
 /maps
-/__pycache__
+**/__pycache__
 /mpr_bajadas_eng
 /f2_senninha
 /POC/maps

@@ -1,3 +1,6 @@
+from dataclasses import asdict
+import dadosCliente
+from interface.cliente_modal import Cliente, Bancario
 from pdf_decryptor import PDFDecryptor
 from pdf_text_extractor import PDFTextExtractor
 from pdf_data_extractor import PDFDataExtractor
@@ -45,4 +48,25 @@ def process_pdfs():
 
 
 if __name__ == "__main__":
-    process_pdfs()
+    cliente = Cliente(
+        nome="Renan",
+        nif="123456789",
+        bancario=[
+            Bancario(
+                mesMapa="Janeiro",
+                instituicao="Banco de Portugal",
+                divida=500.00,
+                parcela="Não",
+                garantias=519.90,
+                num_devedores=2,
+                prod_financeiro="Banco Europeu",
+                entrada_incumpr="None",
+                data_inicio="2009-05-05",
+                data_fim="2010-05-05"
+            )
+        ]
+    )
+    
+    dadosCliente.extraiDadosCliente(cliente)
+
+    # process_pdfs()

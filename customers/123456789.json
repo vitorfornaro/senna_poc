@@ -1,0 +1,18 @@
+{
+  "nome": "Renan",
+  "nif": "123456789",
+  "bancario": [
+    {
+      "mesMapa": "Janeiro",
+      "instituicao": "Banco de Portugal",
+      "divida": 500.0,
+      "parcela": "Não",
+      "garantias": 519.9,
+      "num_devedores": 2,
+      "prod_financeiro": "Banco Europeu",
+      "entrada_incumpr": "None",
+      "data_inicio": "2009-05-05",
+      "data_fim": "2010-05-05"
+    }
+  ]
+}
